@@ -251,7 +251,7 @@ void draw_apple()
     setColor(GREY);
     gotoxy(RIGHT_BARRIER + 5, UPPER_BARRIER + 3);
     printf("score: ");
-    setColor(7);
+    setColor(LIGHT_white);
     printf("%d", length - 3);
 }
                                         // if the snake hits the barrier or itself, we display 'lost' message using gotoxy, and ask the user to restart or exit the game
