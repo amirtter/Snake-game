@@ -105,7 +105,7 @@ int main()
 
         draw_grid();
         draw_snake();
-                                        // displa message to the user to indicate that the game have started and wait for a key press to start
+                                        // display message to the user to indicate that the game have started and wait for a key press to start
         gotoxy(RIGHT_BARRIER + 5, LOWER_BARRIER+4);
         setColor(WHITE);
         printf("PRESS ANY KEY TO START .....");
